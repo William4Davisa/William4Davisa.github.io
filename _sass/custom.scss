@@ -7,4 +7,14 @@ h1 {
 h2 {
     font-size: 1.2rem; /* 원하는 크기로 설정 */
 }
+.toplist {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px; /* 필요 시 모서리를 둥글게 만들 수 있습니다 */
+}
 /* end custom scss snippet */
+
