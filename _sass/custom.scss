@@ -7,6 +7,7 @@ h1 {
 h2 {
     font-size: 1.2rem; /* 원하는 크기로 설정 */
 }
+
 .toplist {
     text-align: center;
     font-size: 1.2em;
@@ -15,6 +16,29 @@ h2 {
     display: inline-block;
     padding: 5px;
     border-radius: 5px; /* 필요 시 모서리를 둥글게 만들 수 있습니다 */
+}
+.myButton {
+    box-shadow: 2px 7px 5px 0px rgb(255, 217, 236);
+    background: linear-gradient(rgb(243, 32, 138) 5%, rgb(93, 50, 72) 100%), rgb(225, 204, 215);
+    background-color: #FFD9EC;
+    border-radius: 27px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: white !important;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-shadow: 0px -2px 0px #810e05;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
 }
 /* end custom scss snippet */
 
